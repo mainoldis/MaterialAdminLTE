@@ -13,7 +13,7 @@ Check out the live preview now and see for yourself.
 <img src="https://raw.githubusercontent.com/DucThanhNguyen/MaterialAdminLTE/gh-pages/documentation/MaterialAdminLTE_Dashboard.JPG">
 
 ## AdminLTE Documentation & Installation Guide
-- Offline documentation is avaiable in the source code at the folder: [/documentation/index.html](https://github.com/DucThanhNguyen/MaterialAdminLTE/blob/master/documentation/index.html)
+- Offline documentation is available in the source code at the folder: [/documentation/index.html](https://github.com/DucThanhNguyen/MaterialAdminLTE/blob/master/documentation/index.html)
 - Visit the [online documentation](https://adminlte.io/docs) for the most updated guide.
 
 ## What's changed in AdminLTE

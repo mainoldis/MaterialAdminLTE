@@ -7,7 +7,7 @@ module.exports = function (grunt) { // jshint ignore:line
     watch : {
       less : {
         // Compiles less files upon saving
-        files: ['build/less/*.less'],
+        files: ['build/less/*.less', 'build/bootstrap-material-design-less/*.less', 'build/material-less/*.less'],
         tasks: ['less:development', 'less:production', 'replace', 'notify:less']
       },
       js   : {
@@ -17,7 +17,7 @@ module.exports = function (grunt) { // jshint ignore:line
       },
       skins: {
         // Compile any skin less files upon saving
-        files: ['build/less/skins/*.less'],
+        files: ['build/less/skins/*.less', 'build/material-less/skins/*.less'],
         tasks: ['less:skins', 'less:minifiedSkins', 'notify:less']
       }
     },
@@ -49,7 +49,11 @@ module.exports = function (grunt) { // jshint ignore:line
           // Separate plugins
           'dist/css/alt/AdminLTE-select2.css'         : 'build/less/select2.less',
           'dist/css/alt/AdminLTE-fullcalendar.css'    : 'build/less/fullcalendar.less',
-          'dist/css/alt/AdminLTE-bootstrap-social.css': 'build/less/bootstrap-social.less'
+          'dist/css/alt/AdminLTE-bootstrap-social.css': 'build/less/bootstrap-social.less',
+          //Material Theme
+          'dist/css/bootstrap-material-design.css'    : 'build/bootstrap-material-design-less/bootstrap-material-design.less',
+          'dist/css/ripples.css'                      : 'build/bootstrap-material-design-less/ripples.less',
+          'dist/css/MaterialAdminLTE.css'             : 'build/material-less/MaterialAdminLTE.less',
         }
       },
       // Production compressed version
@@ -65,7 +69,11 @@ module.exports = function (grunt) { // jshint ignore:line
           // Separate plugins
           'dist/css/alt/AdminLTE-select2.min.css'         : 'build/less/select2.less',
           'dist/css/alt/AdminLTE-fullcalendar.min.css'    : 'build/less/fullcalendar.less',
-          'dist/css/alt/AdminLTE-bootstrap-social.min.css': 'build/less/bootstrap-social.less'
+          'dist/css/alt/AdminLTE-bootstrap-social.min.css': 'build/less/bootstrap-social.less',
+          //Material Theme
+          'dist/css/bootstrap-material-design.min.css'    : 'build/bootstrap-material-design-less/bootstrap-material-design.less',
+          'dist/css/ripples.min.css'                      : 'build/bootstrap-material-design-less/ripples.less',
+          'dist/css/MaterialAdminLTE.min.css'             : 'build/material-less/MaterialAdminLTE.less',
         }
       },
       // Non minified skin files
@@ -83,7 +91,21 @@ module.exports = function (grunt) { // jshint ignore:line
           'dist/css/skins/skin-green-light.css' : 'build/less/skins/skin-green-light.less',
           'dist/css/skins/skin-red-light.css'   : 'build/less/skins/skin-red-light.less',
           'dist/css/skins/skin-purple-light.css': 'build/less/skins/skin-purple-light.less',
-          'dist/css/skins/_all-skins.css'       : 'build/less/skins/_all-skins.less'
+          'dist/css/skins/_all-skins.css'       : 'build/less/skins/_all-skins.less',
+          //Material skins
+          'dist/css/skins/skin-md-blue.css'         : 'build/material-less/skins/skin-md-blue.less',
+          'dist/css/skins/skin-md-black.css'        : 'build/material-less/skins/skin-md-black.less',
+          'dist/css/skins/skin-md-yellow.css'       : 'build/material-less/skins/skin-md-yellow.less',
+          'dist/css/skins/skin-md-green.css'        : 'build/material-less/skins/skin-md-green.less',
+          'dist/css/skins/skin-md-red.css'          : 'build/material-less/skins/skin-md-red.less',
+          'dist/css/skins/skin-md-purple.css'       : 'build/material-less/skins/skin-md-purple.less',
+          'dist/css/skins/skin-md-blue-light.css'   : 'build/material-less/skins/skin-md-blue-light.less',
+          'dist/css/skins/skin-md-black-light.css'  : 'build/material-less/skins/skin-md-black-light.less',
+          'dist/css/skins/skin-md-yellow-light.css' : 'build/material-less/skins/skin-md-yellow-light.less',
+          'dist/css/skins/skin-md-green-light.css'  : 'build/material-less/skins/skin-md-green-light.less',
+          'dist/css/skins/skin-md-red-light.css'    : 'build/material-less/skins/skin-md-red-light.less',
+          'dist/css/skins/skin-md-purple-light.css' : 'build/material-less/skins/skin-md-purple-light.less',
+          'dist/css/skins/all-md-skins.css'         : 'build/material-less/skins/all-md-skins.less'
         }
       },
       // Skins minified
@@ -104,7 +126,21 @@ module.exports = function (grunt) { // jshint ignore:line
           'dist/css/skins/skin-green-light.min.css' : 'build/less/skins/skin-green-light.less',
           'dist/css/skins/skin-red-light.min.css'   : 'build/less/skins/skin-red-light.less',
           'dist/css/skins/skin-purple-light.min.css': 'build/less/skins/skin-purple-light.less',
-          'dist/css/skins/_all-skins.min.css'       : 'build/less/skins/_all-skins.less'
+          'dist/css/skins/_all-skins.min.css'       : 'build/less/skins/_all-skins.less',
+          //Material skins
+          'dist/css/skins/skin-md-blue.min.css'         : 'build/material-less/skins/skin-md-blue.less',
+          'dist/css/skins/skin-md-black.min.css'        : 'build/material-less/skins/skin-md-black.less',
+          'dist/css/skins/skin-md-yellow.min.css'       : 'build/material-less/skins/skin-md-yellow.less',
+          'dist/css/skins/skin-md-green.min.css'        : 'build/material-less/skins/skin-md-green.less',
+          'dist/css/skins/skin-md-red.min.css'          : 'build/material-less/skins/skin-md-red.less',
+          'dist/css/skins/skin-md-purple.min.css'       : 'build/material-less/skins/skin-md-purple.less',
+          'dist/css/skins/skin-md-blue-light.min.css'   : 'build/material-less/skins/skin-md-blue-light.less',
+          'dist/css/skins/skin-md-black-light.min.css'  : 'build/material-less/skins/skin-md-black-light.less',
+          'dist/css/skins/skin-md-yellow-light.min.css' : 'build/material-less/skins/skin-md-yellow-light.less',
+          'dist/css/skins/skin-md-green-light.min.css'  : 'build/material-less/skins/skin-md-green-light.less',
+          'dist/css/skins/skin-md-red-light.min.css'    : 'build/material-less/skins/skin-md-red-light.less',
+          'dist/css/skins/skin-md-purple-light.min.css' : 'build/material-less/skins/skin-md-purple-light.less',
+          'dist/css/skins/all-md-skins.min.css'         : 'build/material-less/skins/all-md-skins.less'
         }
       }
     },
@@ -251,7 +287,9 @@ module.exports = function (grunt) { // jshint ignore:line
         csslintrc: 'build/less/.csslintrc'
       },
       dist   : [
-        'dist/css/AdminLTE.css'
+        'dist/css/AdminLTE.css',
+        'dist/css/MaterialAdminLTE.css',
+        'dist/css/bootstrap-material-design.css'
       ]
     },
 

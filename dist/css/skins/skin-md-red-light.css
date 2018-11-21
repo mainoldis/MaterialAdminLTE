@@ -45,7 +45,7 @@ Then, run this script to get the list.
   background-color: #f44336;
 }
 .skin-red-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red-light .main-header .navbar .nav > li > a:hover,
 .skin-red-light .main-header .navbar .nav > li > a:active,
@@ -58,7 +58,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-red-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red-light .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -83,7 +83,7 @@ Then, run this script to get the list.
 }
 .skin-red-light .main-header .logo {
   background-color: #f44336;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red-light .main-header .logo:hover {
@@ -105,7 +105,7 @@ Then, run this script to get the list.
 }
 .skin-red-light .user-panel > .info,
 .skin-red-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-red-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -122,7 +122,7 @@ Then, run this script to get the list.
 }
 .skin-red-light .sidebar-menu > li:hover > a,
 .skin-red-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-red-light .sidebar-menu > li.active {
@@ -135,17 +135,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-red-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-red-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-red-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-red-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-red-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-red-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -231,10 +231,10 @@ Then, run this script to get the list.
 }
 .skin-red-light .form-control,
 .skin-red-light .form-group .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red-light .form-group.is-focused .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red-light .form-group.is-focused .form-control .material-input:after {
   background-color: #f44336;
@@ -372,4 +372,3 @@ Then, run this script to get the list.
 .skin-red-light label.radio-inline .check {
   background-color: #f44336;
 }
-/*# sourceMappingURL=./skin-md-red-light.css.map */

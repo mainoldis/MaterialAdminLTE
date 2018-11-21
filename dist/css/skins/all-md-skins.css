@@ -45,7 +45,7 @@ Then, run this script to get the list.
   background-color: #2196f3;
 }
 .skin-blue .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-blue .main-header .navbar .nav > li > a:hover,
 .skin-blue .main-header .navbar .nav > li > a:active,
@@ -58,7 +58,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-blue .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -83,7 +83,7 @@ Then, run this script to get the list.
 }
 .skin-blue .main-header .logo {
   background-color: #0d8aee;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-blue .main-header .logo:hover {
@@ -114,7 +114,7 @@ Then, run this script to get the list.
 .skin-blue .sidebar-menu > li:hover > a,
 .skin-blue .sidebar-menu > li.active > a,
 .skin-blue .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-blue .sidebar-menu > li.active > a {
@@ -135,7 +135,7 @@ Then, run this script to get the list.
 }
 .skin-blue .sidebar-menu .treeview-menu > li.active > a,
 .skin-blue .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-blue .sidebar-form {
   border-radius: 3px;
@@ -213,10 +213,10 @@ Then, run this script to get the list.
 }
 .skin-blue .form-control,
 .skin-blue .form-group .form-control {
-  background-image: linear-gradient(#2196f3, #2196f3), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#2196f3, #2196f3), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-blue .form-group.is-focused .form-control {
-  background-image: linear-gradient(#2196f3, #2196f3), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#2196f3, #2196f3), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-blue .form-group.is-focused .form-control .material-input:after {
   background-color: #2196f3;
@@ -362,7 +362,7 @@ Then, run this script to get the list.
   background-color: #00bcd4;
 }
 .skin-blue-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-blue-light .main-header .navbar .nav > li > a:hover,
 .skin-blue-light .main-header .navbar .nav > li > a:active,
@@ -375,7 +375,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-blue-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-blue-light .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -400,7 +400,7 @@ Then, run this script to get the list.
 }
 .skin-blue-light .main-header .logo {
   background-color: #00bcd4;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-blue-light .main-header .logo:hover {
@@ -422,7 +422,7 @@ Then, run this script to get the list.
 }
 .skin-blue-light .user-panel > .info,
 .skin-blue-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-blue-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -439,7 +439,7 @@ Then, run this script to get the list.
 }
 .skin-blue-light .sidebar-menu > li:hover > a,
 .skin-blue-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-blue-light .sidebar-menu > li.active {
@@ -452,17 +452,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-blue-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-blue-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-blue-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-blue-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-blue-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-blue-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -548,10 +548,10 @@ Then, run this script to get the list.
 }
 .skin-blue-light .form-control,
 .skin-blue-light .form-group .form-control {
-  background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-blue-light .form-group.is-focused .form-control {
-  background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-blue-light .form-group.is-focused .form-control .material-input:after {
   background-color: #00bcd4;
@@ -706,10 +706,10 @@ Then, run this script to get the list.
   border-right: 1px solid #eee;
 }
 .skin-black .main-header .navbar {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .skin-black .main-header .navbar .nav > li > a {
-  color: #333;
+  color: #333333;
 }
 .skin-black .main-header .navbar .nav > li > a:hover,
 .skin-black .main-header .navbar .nav > li > a:active,
@@ -718,15 +718,15 @@ Then, run this script to get the list.
 .skin-black .main-header .navbar .nav .open > a:hover,
 .skin-black .main-header .navbar .nav .open > a:focus,
 .skin-black .main-header .navbar .nav > .active > a {
-  background: #fff;
-  color: #999;
+  background: #ffffff;
+  color: #999999;
 }
 .skin-black .main-header .navbar .sidebar-toggle {
-  color: #333;
+  color: #333333;
 }
 .skin-black .main-header .navbar .sidebar-toggle:hover {
-  color: #999;
-  background: #fff;
+  color: #999999;
+  background: #ffffff;
 }
 .skin-black .main-header .navbar > .sidebar-toggle {
   color: #333;
@@ -741,8 +741,8 @@ Then, run this script to get the list.
   border-right-width: 0;
 }
 .skin-black .main-header > .logo {
-  background-color: #fff;
-  color: #333;
+  background-color: #ffffff;
+  color: #333333;
   border-bottom: 0 solid transparent;
   border-right: 1px solid #eee;
 }
@@ -751,8 +751,8 @@ Then, run this script to get the list.
 }
 @media (max-width: 767px) {
   .skin-black .main-header > .logo {
-    background-color: #222;
-    color: #fff;
+    background-color: #222222;
+    color: #ffffff;
     border-bottom: 0 solid transparent;
     border-right: none;
   }
@@ -786,11 +786,11 @@ Then, run this script to get the list.
 .skin-black .sidebar-menu > li:hover > a,
 .skin-black .sidebar-menu > li.active > a,
 .skin-black .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-black .sidebar-menu > li.active > a {
-  border-left-color: #fff;
+  border-left-color: #ffffff;
 }
 .skin-black .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
@@ -807,7 +807,7 @@ Then, run this script to get the list.
 }
 .skin-black .sidebar-menu .treeview-menu > li.active > a,
 .skin-black .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-black .sidebar-form {
   border-radius: 3px;
@@ -878,10 +878,10 @@ Then, run this script to get the list.
   border-right: 1px solid #eee;
 }
 .skin-black-light .main-header .navbar {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .skin-black-light .main-header .navbar .nav > li > a {
-  color: #333;
+  color: #333333;
 }
 .skin-black-light .main-header .navbar .nav > li > a:hover,
 .skin-black-light .main-header .navbar .nav > li > a:active,
@@ -890,15 +890,15 @@ Then, run this script to get the list.
 .skin-black-light .main-header .navbar .nav .open > a:hover,
 .skin-black-light .main-header .navbar .nav .open > a:focus,
 .skin-black-light .main-header .navbar .nav > .active > a {
-  background: #fff;
-  color: #999;
+  background: #ffffff;
+  color: #999999;
 }
 .skin-black-light .main-header .navbar .sidebar-toggle {
-  color: #333;
+  color: #333333;
 }
 .skin-black-light .main-header .navbar .sidebar-toggle:hover {
-  color: #999;
-  background: #fff;
+  color: #999999;
+  background: #ffffff;
 }
 .skin-black-light .main-header .navbar > .sidebar-toggle {
   color: #333;
@@ -913,8 +913,8 @@ Then, run this script to get the list.
   border-right-width: 0;
 }
 .skin-black-light .main-header > .logo {
-  background-color: #fff;
-  color: #333;
+  background-color: #ffffff;
+  color: #333333;
   border-bottom: 0 solid transparent;
   border-right: 1px solid #eee;
 }
@@ -923,8 +923,8 @@ Then, run this script to get the list.
 }
 @media (max-width: 767px) {
   .skin-black-light .main-header > .logo {
-    background-color: #222;
-    color: #fff;
+    background-color: #222222;
+    color: #ffffff;
     border-bottom: 0 solid transparent;
     border-right: none;
   }
@@ -949,7 +949,7 @@ Then, run this script to get the list.
 }
 .skin-black-light .user-panel > .info,
 .skin-black-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-black-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -966,11 +966,11 @@ Then, run this script to get the list.
 }
 .skin-black-light .sidebar-menu > li:hover > a,
 .skin-black-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-black-light .sidebar-menu > li.active {
-  border-left-color: #fff;
+  border-left-color: #ffffff;
 }
 .skin-black-light .sidebar-menu > li.active > a {
   font-weight: 600;
@@ -979,17 +979,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-black-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-black-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-black-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-black-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-black-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-black-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -1058,7 +1058,7 @@ Then, run this script to get the list.
   background-color: #1ab394;
 }
 .skin-green .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-green .main-header .navbar .nav > li > a:hover,
 .skin-green .main-header .navbar .nav > li > a:active,
@@ -1071,7 +1071,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-green .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-green .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -1096,7 +1096,7 @@ Then, run this script to get the list.
 }
 .skin-green .main-header .logo {
   background-color: #179d82;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-green .main-header .logo:hover {
@@ -1127,7 +1127,7 @@ Then, run this script to get the list.
 .skin-green .sidebar-menu > li:hover > a,
 .skin-green .sidebar-menu > li.active > a,
 .skin-green .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-green .sidebar-menu > li.active > a {
@@ -1148,7 +1148,7 @@ Then, run this script to get the list.
 }
 .skin-green .sidebar-menu .treeview-menu > li.active > a,
 .skin-green .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-green .sidebar-form {
   border-radius: 3px;
@@ -1226,10 +1226,10 @@ Then, run this script to get the list.
 }
 .skin-green .form-control,
 .skin-green .form-group .form-control {
-  background-image: linear-gradient(#1ab394, #1ab394), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#1ab394, #1ab394), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-green .form-group.is-focused .form-control {
-  background-image: linear-gradient(#1ab394, #1ab394), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#1ab394, #1ab394), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-green .form-group.is-focused .form-control .material-input:after {
   background-color: #1ab394;
@@ -1375,7 +1375,7 @@ Then, run this script to get the list.
   background-color: #4caf50;
 }
 .skin-green-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-green-light .main-header .navbar .nav > li > a:hover,
 .skin-green-light .main-header .navbar .nav > li > a:active,
@@ -1388,7 +1388,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-green-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-green-light .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -1413,7 +1413,7 @@ Then, run this script to get the list.
 }
 .skin-green-light .main-header .logo {
   background-color: #4caf50;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-green-light .main-header .logo:hover {
@@ -1435,7 +1435,7 @@ Then, run this script to get the list.
 }
 .skin-green-light .user-panel > .info,
 .skin-green-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-green-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -1452,7 +1452,7 @@ Then, run this script to get the list.
 }
 .skin-green-light .sidebar-menu > li:hover > a,
 .skin-green-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-green-light .sidebar-menu > li.active {
@@ -1465,17 +1465,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-green-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-green-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-green-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-green-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-green-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-green-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -1561,10 +1561,10 @@ Then, run this script to get the list.
 }
 .skin-green-light .form-control,
 .skin-green-light .form-group .form-control {
-  background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-green-light .form-group.is-focused .form-control {
-  background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-green-light .form-group.is-focused .form-control .material-input:after {
   background-color: #4caf50;
@@ -1710,7 +1710,7 @@ Then, run this script to get the list.
   background-color: #f44336;
 }
 .skin-red .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red .main-header .navbar .nav > li > a:hover,
 .skin-red .main-header .navbar .nav > li > a:active,
@@ -1723,7 +1723,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-red .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -1748,7 +1748,7 @@ Then, run this script to get the list.
 }
 .skin-red .main-header .logo {
   background-color: #f32c1e;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red .main-header .logo:hover {
@@ -1779,7 +1779,7 @@ Then, run this script to get the list.
 .skin-red .sidebar-menu > li:hover > a,
 .skin-red .sidebar-menu > li.active > a,
 .skin-red .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-red .sidebar-menu > li.active > a {
@@ -1800,7 +1800,7 @@ Then, run this script to get the list.
 }
 .skin-red .sidebar-menu .treeview-menu > li.active > a,
 .skin-red .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red .sidebar-form {
   border-radius: 3px;
@@ -1878,10 +1878,10 @@ Then, run this script to get the list.
 }
 .skin-red .form-control,
 .skin-red .form-group .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red .form-group.is-focused .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red .form-group.is-focused .form-control .material-input:after {
   background-color: #f44336;
@@ -2027,7 +2027,7 @@ Then, run this script to get the list.
   background-color: #f44336;
 }
 .skin-red-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red-light .main-header .navbar .nav > li > a:hover,
 .skin-red-light .main-header .navbar .nav > li > a:active,
@@ -2040,7 +2040,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-red-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red-light .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -2065,7 +2065,7 @@ Then, run this script to get the list.
 }
 .skin-red-light .main-header .logo {
   background-color: #f44336;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red-light .main-header .logo:hover {
@@ -2087,7 +2087,7 @@ Then, run this script to get the list.
 }
 .skin-red-light .user-panel > .info,
 .skin-red-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-red-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -2104,7 +2104,7 @@ Then, run this script to get the list.
 }
 .skin-red-light .sidebar-menu > li:hover > a,
 .skin-red-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-red-light .sidebar-menu > li.active {
@@ -2117,17 +2117,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-red-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-red-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-red-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-red-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-red-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-red-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -2213,10 +2213,10 @@ Then, run this script to get the list.
 }
 .skin-red-light .form-control,
 .skin-red-light .form-group .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red-light .form-group.is-focused .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red-light .form-group.is-focused .form-control .material-input:after {
   background-color: #f44336;
@@ -2362,7 +2362,7 @@ Then, run this script to get the list.
   background-color: #ff9800;
 }
 .skin-yellow .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-yellow .main-header .navbar .nav > li > a:hover,
 .skin-yellow .main-header .navbar .nav > li > a:active,
@@ -2375,7 +2375,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-yellow .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-yellow .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -2400,7 +2400,7 @@ Then, run this script to get the list.
 }
 .skin-yellow .main-header .logo {
   background-color: #e68900;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-yellow .main-header .logo:hover {
@@ -2431,7 +2431,7 @@ Then, run this script to get the list.
 .skin-yellow .sidebar-menu > li:hover > a,
 .skin-yellow .sidebar-menu > li.active > a,
 .skin-yellow .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-yellow .sidebar-menu > li.active > a {
@@ -2452,7 +2452,7 @@ Then, run this script to get the list.
 }
 .skin-yellow .sidebar-menu .treeview-menu > li.active > a,
 .skin-yellow .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-yellow .sidebar-form {
   border-radius: 3px;
@@ -2530,10 +2530,10 @@ Then, run this script to get the list.
 }
 .skin-yellow .form-control,
 .skin-yellow .form-group .form-control {
-  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-yellow .form-group.is-focused .form-control {
-  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-yellow .form-group.is-focused .form-control .material-input:after {
   background-color: #ff9800;
@@ -2679,7 +2679,7 @@ Then, run this script to get the list.
   background-color: #ff9800;
 }
 .skin-yellow-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-yellow-light .main-header .navbar .nav > li > a:hover,
 .skin-yellow-light .main-header .navbar .nav > li > a:active,
@@ -2692,7 +2692,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-yellow-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-yellow-light .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -2717,7 +2717,7 @@ Then, run this script to get the list.
 }
 .skin-yellow-light .main-header .logo {
   background-color: #ff9800;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-yellow-light .main-header .logo:hover {
@@ -2739,7 +2739,7 @@ Then, run this script to get the list.
 }
 .skin-yellow-light .user-panel > .info,
 .skin-yellow-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-yellow-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -2756,7 +2756,7 @@ Then, run this script to get the list.
 }
 .skin-yellow-light .sidebar-menu > li:hover > a,
 .skin-yellow-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-yellow-light .sidebar-menu > li.active {
@@ -2769,17 +2769,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-yellow-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-yellow-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-yellow-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-yellow-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-yellow-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-yellow-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -2865,10 +2865,10 @@ Then, run this script to get the list.
 }
 .skin-yellow-light .form-control,
 .skin-yellow-light .form-group .form-control {
-  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-yellow-light .form-group.is-focused .form-control {
-  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-yellow-light .form-group.is-focused .form-control .material-input:after {
   background-color: #ff9800;
@@ -3014,7 +3014,7 @@ Then, run this script to get the list.
   background-color: #9c27b0;
 }
 .skin-purple .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-purple .main-header .navbar .nav > li > a:hover,
 .skin-purple .main-header .navbar .nav > li > a:active,
@@ -3027,7 +3027,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-purple .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-purple .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -3052,7 +3052,7 @@ Then, run this script to get the list.
 }
 .skin-purple .main-header .logo {
   background-color: #89229b;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-purple .main-header .logo:hover {
@@ -3083,7 +3083,7 @@ Then, run this script to get the list.
 .skin-purple .sidebar-menu > li:hover > a,
 .skin-purple .sidebar-menu > li.active > a,
 .skin-purple .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-purple .sidebar-menu > li.active > a {
@@ -3104,7 +3104,7 @@ Then, run this script to get the list.
 }
 .skin-purple .sidebar-menu .treeview-menu > li.active > a,
 .skin-purple .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-purple .sidebar-form {
   border-radius: 3px;
@@ -3182,10 +3182,10 @@ Then, run this script to get the list.
 }
 .skin-purple .form-control,
 .skin-purple .form-group .form-control {
-  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-purple .form-group.is-focused .form-control {
-  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-purple .form-group.is-focused .form-control .material-input:after {
   background-color: #9c27b0;
@@ -3331,7 +3331,7 @@ Then, run this script to get the list.
   background-color: #9c27b0;
 }
 .skin-purple-light .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-purple-light .main-header .navbar .nav > li > a:hover,
 .skin-purple-light .main-header .navbar .nav > li > a:active,
@@ -3344,7 +3344,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-purple-light .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-purple-light .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -3369,7 +3369,7 @@ Then, run this script to get the list.
 }
 .skin-purple-light .main-header .logo {
   background-color: #9c27b0;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-purple-light .main-header .logo:hover {
@@ -3391,7 +3391,7 @@ Then, run this script to get the list.
 }
 .skin-purple-light .user-panel > .info,
 .skin-purple-light .user-panel > .info > a {
-  color: #444;
+  color: #444444;
 }
 .skin-purple-light .sidebar-menu > li {
   -webkit-transition: border-left-color 0.3s ease;
@@ -3408,7 +3408,7 @@ Then, run this script to get the list.
 }
 .skin-purple-light .sidebar-menu > li:hover > a,
 .skin-purple-light .sidebar-menu > li.active > a {
-  color: #000;
+  color: #000000;
   background: #f4f4f5;
 }
 .skin-purple-light .sidebar-menu > li.active {
@@ -3421,17 +3421,17 @@ Then, run this script to get the list.
   background: #f4f4f5;
 }
 .skin-purple-light .sidebar a {
-  color: #444;
+  color: #444444;
 }
 .skin-purple-light .sidebar a:hover {
   text-decoration: none;
 }
 .skin-purple-light .sidebar-menu .treeview-menu > li > a {
-  color: #777;
+  color: #777777;
 }
 .skin-purple-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-purple-light .sidebar-menu .treeview-menu > li > a:hover {
-  color: #000;
+  color: #000000;
 }
 .skin-purple-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
@@ -3517,10 +3517,10 @@ Then, run this script to get the list.
 }
 .skin-purple-light .form-control,
 .skin-purple-light .form-group .form-control {
-  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-purple-light .form-group.is-focused .form-control {
-  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-purple-light .form-group.is-focused .form-control .material-input:after {
   background-color: #9c27b0;
@@ -3658,4 +3658,3 @@ Then, run this script to get the list.
 .skin-purple-light label.radio-inline .check {
   background-color: #9c27b0;
 }
-/*# sourceMappingURL=./all-md-skins.css.map */

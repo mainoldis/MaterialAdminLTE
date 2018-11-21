@@ -14,8 +14,10 @@
 @import (reference) "../bootstrap-material-design-less/_shadows.less";
 @import "bootstrap-social.less";
 //google fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,300italic,400italic,600italic);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+//@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,300italic,400italic,600italic);
+//@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import (reference) "../../bower_components/roboto-fontface/css/roboto/less/roboto-fontface.less";
+@import (reference) "../../bower_components/material-design-icons/iconfont/material-icons.css";
 .box, .info-box, .small-box, .nav-tabs-custom, .callout{
     .shadow-z-1();
     border-radius: @border-radius-base;
@@ -24,7 +26,7 @@
         font-weight: 300;
     }
 }
-.callout {    
+.callout {
     padding: 19px;
 }
 .nav-tabs-custom{
@@ -33,7 +35,7 @@
         > li{
             > a{
                 color:#444!important;
-            }        
+            }
         }
         > li.active{
             border-top-color:@brand-primary;
@@ -64,8 +66,8 @@
             .form-group{
                 margin-top: 0;
             }
-        } 
-    }    
+        }
+    }
 }
 .main-header{
     .navbar{
@@ -73,13 +75,13 @@
     }
     .logo{
         font-family: @font-family-sans-serif;
-        height: 60px;
-        line-height: 60px;
+        height: 50px;
+        line-height: 50px;
     }
     .sidebar-toggle{
         padding-top: 20px;
         padding-bottom: 20px;
-    } 
+    }
   #navbar-search-input.form-control {
     background-color: transparent;
     border-bottom: 1px solid @mdb-input-underline-color;
@@ -88,12 +90,12 @@
         background-color: transparent;
         border-bottom: 2px solid @brand-primary;
     }
-  }  
+  }
 }
 .main-sidebar, .left-side, .control-sidebar {
-    padding-top: 60px;
+    padding-top: 50px;
     .shadow-z-2();
-} 
+}
 .main-sidebar{
     .user-panel{
         background: url(../img/patterns/user-panel-bg_green.jpg) no-repeat;
@@ -122,7 +124,7 @@
         margin-top: 0;
         padding-bottom: 0;
     }
-    .input-group-btn {        
+    .input-group-btn {
         padding: 0;
         .btn {
             margin: 0;
@@ -148,7 +150,7 @@
     }
 }
 @media (min-width: 768px){
-    .sidebar-mini.sidebar-collapse 
+    .sidebar-mini.sidebar-collapse
     {
         .main-sidebar{
             .user-panel{
@@ -160,7 +162,7 @@
                         border-top-right-radius: 2px;
                     }
                     >.treeview-menu{
-                        border-bottom-right-radius: 2px;      
+                        border-bottom-right-radius: 2px;
                         .shadow-z-1();
                     }
                 }

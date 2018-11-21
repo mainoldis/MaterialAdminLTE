@@ -45,7 +45,7 @@ Then, run this script to get the list.
   background-color: #f44336;
 }
 .skin-red .main-header .navbar .nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red .main-header .navbar .nav > li > a:hover,
 .skin-red .main-header .navbar .nav > li > a:active,
@@ -58,7 +58,7 @@ Then, run this script to get the list.
   color: #f6f6f6;
 }
 .skin-red .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
@@ -83,7 +83,7 @@ Then, run this script to get the list.
 }
 .skin-red .main-header .logo {
   background-color: #f32c1e;
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red .main-header .logo:hover {
@@ -114,7 +114,7 @@ Then, run this script to get the list.
 .skin-red .sidebar-menu > li:hover > a,
 .skin-red .sidebar-menu > li.active > a,
 .skin-red .sidebar-menu > li.menu-open > a {
-  color: #fff;
+  color: #ffffff;
   background: #1e282c;
 }
 .skin-red .sidebar-menu > li.active > a {
@@ -135,7 +135,7 @@ Then, run this script to get the list.
 }
 .skin-red .sidebar-menu .treeview-menu > li.active > a,
 .skin-red .sidebar-menu .treeview-menu > li > a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .skin-red .sidebar-form {
   border-radius: 3px;
@@ -213,10 +213,10 @@ Then, run this script to get the list.
 }
 .skin-red .form-control,
 .skin-red .form-group .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red .form-group.is-focused .form-control {
-  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .skin-red .form-group.is-focused .form-control .material-input:after {
   background-color: #f44336;
@@ -354,4 +354,3 @@ Then, run this script to get the list.
 .skin-red label.radio-inline .check {
   background-color: #f44336;
 }
-/*# sourceMappingURL=./skin-md-red.css.map */
